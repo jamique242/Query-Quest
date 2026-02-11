@@ -62,9 +62,7 @@ This repository supports my continued progression toward:
 * Machine Learning Feature Engineering
 * Scalable Data Platform Design
 
-<h1>💼 Recruiter-Optimized Portfolio Section</h1>
-
-<h2>Professional Portfolio Overview</h2>
+<h1>💼 Professional Portfolio Overview</h1>
 
 Query Quest demonstrates applied experience building analytics-ready datasets and transformation workflows using modern SQL tooling and engineering best practices.
 

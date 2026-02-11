@@ -104,7 +104,7 @@ This work complements professional experience including:
 * Managing CI/CD analytics deployments and data pipeline orchestration
 * Designing scalable data models supporting forecasting, reporting, and business intelligence
 
-<h5>Career Trajectory</h5>
+<h4>Career Trajectory</h4>
 
 This portfolio supports continued advancement into:
 * Data Engineering

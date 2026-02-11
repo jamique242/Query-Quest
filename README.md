@@ -1,4 +1,4 @@
-<h2>📜 Welcome to Query Quest</h2>
+<h1>📜 Welcome to Query Quest</h1>
 
 Every data journey starts somewhere.
 

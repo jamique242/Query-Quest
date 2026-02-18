@@ -27,3 +27,4 @@ CAST("Discount" AS DECIMAL(5,4))        AS discount,
 CAST("Profit" AS DECIMAL(12,2))         AS profit
 FROM 
 query_quest.adventure_01.super_store
+WHERE "Row ID" is not null

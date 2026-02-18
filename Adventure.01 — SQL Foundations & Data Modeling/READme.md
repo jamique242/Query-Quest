@@ -23,3 +23,10 @@ The objective of Week 1 is to:
 * data/      → Raw source data (immutable)
 * sql/       → Transformation logic
 * outputs/   → Modeled data artifacts
+
+<h1>📝 Observations</h1>
+During this project a few things were observed:
+
+* Though logically my grain should have been order_id + product_id it wasn't and that was why row_id was created for logging transaction grain data. - My initial theory was wrong.
+* 
+* 

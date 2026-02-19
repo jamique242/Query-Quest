@@ -8,7 +8,6 @@ SELECT
     category,
     sub_category
 FROM query_quest.adventure_01.stg_orders
---WHERE product_id = 'OFF-AR-10001149'
 GROUP BY product_id, product_name, category, sub_category
 QUALIFY ROW_NUMBER() 
           OVER (

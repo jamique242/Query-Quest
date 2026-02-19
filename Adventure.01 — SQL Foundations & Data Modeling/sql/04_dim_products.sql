@@ -1,7 +1,8 @@
 /*
 Multiple product names were found mapped to a single product id , this seemed sporadic and we chose the name with the highest count for each product_id
 */
-
+CREATE OR REPLACE TABLE query_quest.adventure_01.dim_products
+AS
 SELECT 
     product_id,
     product_name,

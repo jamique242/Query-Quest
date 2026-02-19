@@ -9,6 +9,7 @@ SELECT distinct
 city,
 state,
 postal_code,
+country,
 region,
 postal_code ||'-'||city as loc_key
 from query_quest.adventure_01.stg_orders

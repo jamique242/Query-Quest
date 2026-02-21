@@ -9,7 +9,8 @@ The objective at this stage is to:
 * Create a structured analytical layer
 * Define a business case and satisfy all questions using the model created
 * Clearly document findings and process
-
+  
+[Test(Adventure.01 — SQL Foundations & Data Modeling/sql/analytic queries/Readme.md)]
 <h1>Dataset Context</h1>
 
 <b>Dataset:</b> Sample Superstore

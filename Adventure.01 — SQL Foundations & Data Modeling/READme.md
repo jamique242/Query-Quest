@@ -6,11 +6,10 @@ The objective at this stage is to:
 * Exploratory SQL analysis
 * Analyze, Define and Document grain definition
 * Build a clean staging model
-* Create a structured analytical layer
+* Create a structured analytical layer - [Analytic Queries](https://github.com/jamique242/Query-Quest/blob/main/Adventure.01%20%E2%80%94%20SQL%20Foundations%20%26%20Data%20Modeling/sql/analytic%20queries/Readme.md#-business-questions)
 * Define a business case and satisfy all questions using the model created
 * Clearly document findings and process
-  
-[Test](./Adventure.01 — SQL Foundations & Data Modeling/sql/analytic queries/Readme.md)
+
 <h1>Dataset Context</h1>
 
 <b>Dataset:</b> Sample Superstore

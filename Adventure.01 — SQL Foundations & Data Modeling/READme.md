@@ -24,6 +24,9 @@ The objective of Week 1 is to:
 * sql/       → Transformation logic
 * outputs/   → Modeled data artifacts
 
+<h1>Assumptions</h1>
+We assumed grain level data would be easily obtained for all various dim tables. In this modeling layer transformations were kept to a need only basis. No filtering was done and no in depth normalization. 
+
 <h1>📝 Observations</h1>
 During this project a few things were observed:
 

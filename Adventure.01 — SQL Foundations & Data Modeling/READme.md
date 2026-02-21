@@ -61,7 +61,7 @@ This was done to ensure transparency of source data, traceability from fact to s
 Initial assumption was that the natural grain of the dataset would be order_id + product_id.
 Upon inspection, this assumption proved incorrect. Multiple records existed where this combination did not uniquely identify a transaction row.
 
-<b>Descision</b>
+<b>Descision</b> <br>
 A surrogate row_id was kept to enforce a true transactional grain. The fact table was modeled at row-level transaction grain (row_id), rather than assuming uniqueness at the order_id + product_id level.
 
 
@@ -73,7 +73,7 @@ There was 2 feasible options to correct this issue:
 * Standardized the addresses by introducing another table with correct locations and join this to regions.
 * Create a new PK referencing 2 most granular levels of detail: city and zipcode.
 
-<b>Descision</b>
+<b>Descision</b> <br>
 We decided to use create a new pk based on the information we get from the existing table. This descision supports our initiative for transparency and reducing transformations in our modeling layer. 
 
 To future proof this and create a more scalable product there will be a need for a future reference/validation table.
@@ -82,7 +82,7 @@ To future proof this and create a more scalable product there will be a need for
 
 During modeling multiple instances were found where a single product_id had differing product names. Though this was similar to what we encountered with our dim_location table this was a bit different as there was no way to be 100% certain which name should persist. These inconsistencies were seen at varrying time periods and sporadically. The only clear indicator was the individual price of an item (calculated). 
 
-<b>Decision</b>
+<b>Decision</b> <br>
 We decided to keep model at product_id level, to ensure less transformations for our fact_orders table. We retained a consistent naming approach based on dominant/most representative value. Simplicity was prioritized over temporal dimensional accuracy.
 
 To enhance the accuracy and integrity of our dim_product and subsequent product naming, there would need to be more data governance controls enforced in our CMS where we introduce products upstream. However in the interim a product_sku could be created by using individual product_id and price.

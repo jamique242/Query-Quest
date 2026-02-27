@@ -22,7 +22,7 @@ The objective at this stage is to:
 
 <h1>🗺️ Folder Structure</h1>
 
-* data/      → Raw source data
+* data/      → Raw source data <i>      ** csv due to size of parquet</i>
 * sql/       → Cleaning, feature engineering, and analytics logic
 * outputs/   → Results and aggregated data artifacts
 
